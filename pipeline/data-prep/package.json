@@ -1,0 +1,30 @@
+{
+	"name": "data-prep",
+	"version": "0.1.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"bin": {
+		"check-encoding": "check-encoding.js",
+		"convert-encoding": "convert-encoding.js"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "ff6347 <hash@ff6347.email>",
+	"license": "MIT",
+	"dependencies": {
+		"chardet": "2.0.0",
+		"csv-parse": "5.5.3",
+		"csv-stringify": "6.4.5",
+		"iconv-lite": "0.6.3"
+	},
+	"prettier": {
+		"tabWidth": 2,
+		"semi": true,
+		"singleQuote": false,
+		"useTabs": true,
+		"printWidth": 80
+	}
+}
