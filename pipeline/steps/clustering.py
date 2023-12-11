@@ -51,6 +51,7 @@ def cluster_embeddings(
     )
     hdbscan_model = HDBSCAN(min_cluster_size=min_cluster_size)
 
+    # TODO: Needs be german
     stop = stopwords.words("english")
     vectorizer_model = CountVectorizer(stop_words=stop)
     topic_model = BERTopic(
