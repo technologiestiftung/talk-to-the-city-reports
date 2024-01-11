@@ -1,0 +1,40 @@
+{
+	"questions": [
+		{
+			"id": "Q1",
+			"text": "Stellen Sie sich vor, dass die Smart City Entwicklungen in Berlin langfristig zu positiven Veränderungen für die ganze Region führen. Woran lässt sich das erkennen?"
+		},
+		{
+			"id": "Q2",
+			"text": "Was macht die Smart City Berlin in Zukunft aus?"
+		},
+		{
+			"id": "Q3",
+			"text": "Stellen Sie sich die erwünschten Entwicklungen als Zielhorizont vor. Was hält Berlin davon aktuell ab, sich in Richtung dieser lebenswerten Smart City zu entwickeln?"
+		},
+		{
+			"id": "Q4",
+			"text": "Welche der von Ihnen genannten Hindernisse sollten als erstes angegangen werden?"
+		},
+		{
+			"id": "Q5",
+			"text": "Sie sind eingeladen, die Zukunft Berlins konstruktiv mitzugestalten! Welche Ideen oder Vorschläge haben Sie, um die erwähnten Hindernisse zu überwinden?"
+		},
+		{
+			"id": "Q6",
+			"text": "Woran möchten Sie persönlich mitwirken?"
+		},
+		{
+			"id": "Q7",
+			"text": "Welche Konsequenzen hätten Ihre Vorstellungen bezüglich der Smart City Berlin für diesen Menschen und seine/ihre Generation?"
+		},
+		{
+			"id": "Q8",
+			"text": "Wofür wäre Ihnen diese Person im Kontext der Smart City Entwicklung Berlin dankbar?"
+		},
+		{
+			"id": "Q9",
+			"text": "Worüber reden wir im Smart City Kontext zu selten - und sollten es doch eigentlich tun?"
+		}
+	]
+}

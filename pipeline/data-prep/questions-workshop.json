@@ -1,0 +1,40 @@
+{
+	"questions": [
+		{
+			"id": "Q1",
+			"text": "Durch die Smart City Berlin gibt es erwünschte soziale, ökonomische, ökologische Veränderungen für eine ganze Region und zukünftige Generationen. Woran lässt sich das erkennen? Beschreibe kurz."
+		},
+		{
+			"id": "Q2",
+			"text": "Die Lebenslage der Bewohner:innen der Smart City Berlin wurde dadurch in wünschenswerter Weise sozial, ökonomisch, ökologisch verändert. Woran lässt sich das erkennen? Beschreibe kurz."
+		},
+		{
+			"id": "Q3",
+			"text": "Stellt euch diese wünschenswerten Entwicklungen als Horizont vor. Was hält uns aktuell davon ab, schnell und wirkungsvoll in diese Richtung zu gehen? Welche Ursachen hat das? Beschreibe kurz:"
+		},
+		{
+			"id": "Q4",
+			"text": "Wie könnten diese Hindernisse überwunden werden? Welche Herangehensweisen sind dafür grundlegend? Was sollten wir an unserem heutigen Handeln ändern? Wie können wir es angehen? Beschreibe kurz:"
+		},
+		{
+			"id": "Q5",
+			"text": "Sie sind eingeladen, die Zukunft Berlins konstruktiv mitzugestalten! Welche Ideen oder Vorschläge haben Sie, um die erwähnten Hindernisse zu überwinden?"
+		},
+		{
+			"id": "Q6",
+			"text": "Woran möchten Sie persönlich mitwirken?"
+		},
+		{
+			"id": "Q7",
+			"text": "Welche Konsequenzen hätten Ihre Vorstellungen bezüglich der Smart City Berlin für diesen Menschen und seine/ihre Generation?"
+		},
+		{
+			"id": "Q8",
+			"text": "Wofür wäre Ihnen diese Person im Kontext der Smart City Entwicklung Berlin dankbar?"
+		},
+		{
+			"id": "Q9",
+			"text": "Worüber reden wir im Smart City Kontext zu selten - und sollten es doch eigentlich tun?"
+		}
+	]
+}
