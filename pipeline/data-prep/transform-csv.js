@@ -31,6 +31,11 @@ async function main() {
 				type: "boolean",
 				short: "h",
 			},
+			"write-out": {
+				type: "boolean",
+				short: "w",
+				default: false,
+			},
 			file: {
 				type: "string",
 				short: "f",
@@ -55,23 +60,28 @@ async function main() {
 		columns: true,
 		skip_empty_lines: true,
 	});
+	console.log(records[0]);
+
 	const transformed = records.map((record) => {
 		return { "comment-id": record["ID"], "comment-body": record["Quote"] };
 	});
 
 	const csv = stringify(transformed);
+
 	// console.log(csv);
 	const targetFilePath = filePath
 		.split(".")
 		.map((e, i, a) => {
 			if (i === a.length - 1) {
-				return `transformed.${e}`;
+				return `transformed.combined.${e}`;
 			}
 			return `${e}`;
 		})
 		.join(".");
 
-	writeFileSync(targetFilePath, csv);
+	if (values["write-out"]) {
+		writeFileSync(targetFilePath, `comment-id,comment-body\n${csv}`);
+	}
 	try {
 	} catch (error) {
 		console.error(error);
